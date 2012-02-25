@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1158EEB614F98A420008E5B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1158EEB514F98A420008E5B8 /* UIKit.framework */; };
+		1158EEB814F98A420008E5B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1158EEB714F98A420008E5B8 /* Foundation.framework */; };
+		1158EEBA14F98A420008E5B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1158EEB914F98A420008E5B8 /* CoreGraphics.framework */; };
+		1158EEC014F98A420008E5B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1158EEBE14F98A420008E5B8 /* InfoPlist.strings */; };
+		1158EEC214F98A420008E5B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1158EEC114F98A420008E5B8 /* main.m */; };
+		1158EEC614F98A420008E5B8 /* testideaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1158EEC514F98A420008E5B8 /* testideaAppDelegate.m */; };
+		1158EEC914F98A420008E5B8 /* testideaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1158EEC814F98A420008E5B8 /* testideaViewController.m */; };
+		1158EECC14F98A420008E5B8 /* testideaViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1158EECA14F98A420008E5B8 /* testideaViewController_iPhone.xib */; };
+		1158EECF14F98A420008E5B8 /* testideaViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1158EECD14F98A420008E5B8 /* testideaViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1158EEB114F98A420008E5B8 /* testidea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testidea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1158EEB514F98A420008E5B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1158EEB714F98A420008E5B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1158EEB914F98A420008E5B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1158EEBD14F98A420008E5B8 /* testidea-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testidea-Info.plist"; sourceTree = "<group>"; };
+		1158EEBF14F98A420008E5B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1158EEC114F98A420008E5B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1158EEC314F98A420008E5B8 /* testidea-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testidea-Prefix.pch"; sourceTree = "<group>"; };
+		1158EEC414F98A420008E5B8 /* testideaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testideaAppDelegate.h; sourceTree = "<group>"; };
+		1158EEC514F98A420008E5B8 /* testideaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testideaAppDelegate.m; sourceTree = "<group>"; };
+		1158EEC714F98A420008E5B8 /* testideaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testideaViewController.h; sourceTree = "<group>"; };
+		1158EEC814F98A420008E5B8 /* testideaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testideaViewController.m; sourceTree = "<group>"; };
+		1158EECB14F98A420008E5B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/testideaViewController_iPhone.xib; sourceTree = "<group>"; };
+		1158EECE14F98A420008E5B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/testideaViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1158EEAE14F98A420008E5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1158EEB614F98A420008E5B8 /* UIKit.framework in Frameworks */,
+				1158EEB814F98A420008E5B8 /* Foundation.framework in Frameworks */,
+				1158EEBA14F98A420008E5B8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1158EEA614F98A410008E5B8 = {
+			isa = PBXGroup;
+			children = (
+				1158EEBB14F98A420008E5B8 /* testidea */,
+				1158EEB414F98A420008E5B8 /* Frameworks */,
+				1158EEB214F98A420008E5B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1158EEB214F98A420008E5B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1158EEB114F98A420008E5B8 /* testidea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1158EEB414F98A420008E5B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1158EEB514F98A420008E5B8 /* UIKit.framework */,
+				1158EEB714F98A420008E5B8 /* Foundation.framework */,
+				1158EEB914F98A420008E5B8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1158EEBB14F98A420008E5B8 /* testidea */ = {
+			isa = PBXGroup;
+			children = (
+				1158EEC414F98A420008E5B8 /* testideaAppDelegate.h */,
+				1158EEC514F98A420008E5B8 /* testideaAppDelegate.m */,
+				1158EEC714F98A420008E5B8 /* testideaViewController.h */,
+				1158EEC814F98A420008E5B8 /* testideaViewController.m */,
+				1158EECA14F98A420008E5B8 /* testideaViewController_iPhone.xib */,
+				1158EECD14F98A420008E5B8 /* testideaViewController_iPad.xib */,
+				1158EEBC14F98A420008E5B8 /* Supporting Files */,
+			);
+			path = testidea;
+			sourceTree = "<group>";
+		};
+		1158EEBC14F98A420008E5B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1158EEBD14F98A420008E5B8 /* testidea-Info.plist */,
+				1158EEBE14F98A420008E5B8 /* InfoPlist.strings */,
+				1158EEC114F98A420008E5B8 /* main.m */,
+				1158EEC314F98A420008E5B8 /* testidea-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1158EEB014F98A420008E5B8 /* testidea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1158EED214F98A420008E5B8 /* Build configuration list for PBXNativeTarget "testidea" */;
+			buildPhases = (
+				1158EEAD14F98A420008E5B8 /* Sources */,
+				1158EEAE14F98A420008E5B8 /* Frameworks */,
+				1158EEAF14F98A420008E5B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testidea;
+			productName = testidea;
+			productReference = 1158EEB114F98A420008E5B8 /* testidea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1158EEA814F98A410008E5B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1158EEAB14F98A410008E5B8 /* Build configuration list for PBXProject "testidea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1158EEA614F98A410008E5B8;
+			productRefGroup = 1158EEB214F98A420008E5B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1158EEB014F98A420008E5B8 /* testidea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1158EEAF14F98A420008E5B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1158EEC014F98A420008E5B8 /* InfoPlist.strings in Resources */,
+				1158EECC14F98A420008E5B8 /* testideaViewController_iPhone.xib in Resources */,
+				1158EECF14F98A420008E5B8 /* testideaViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1158EEAD14F98A420008E5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1158EEC214F98A420008E5B8 /* main.m in Sources */,
+				1158EEC614F98A420008E5B8 /* testideaAppDelegate.m in Sources */,
+				1158EEC914F98A420008E5B8 /* testideaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1158EEBE14F98A420008E5B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1158EEBF14F98A420008E5B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1158EECA14F98A420008E5B8 /* testideaViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1158EECB14F98A420008E5B8 /* en */,
+			);
+			name = testideaViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1158EECD14F98A420008E5B8 /* testideaViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1158EECE14F98A420008E5B8 /* en */,
+			);
+			name = testideaViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1158EED014F98A420008E5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1158EED114F98A420008E5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1158EED314F98A420008E5B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testidea/testidea-Prefix.pch";
+				INFOPLIST_FILE = "testidea/testidea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1158EED414F98A420008E5B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testidea/testidea-Prefix.pch";
+				INFOPLIST_FILE = "testidea/testidea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1158EEAB14F98A410008E5B8 /* Build configuration list for PBXProject "testidea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1158EED014F98A420008E5B8 /* Debug */,
+				1158EED114F98A420008E5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1158EED214F98A420008E5B8 /* Build configuration list for PBXNativeTarget "testidea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1158EED314F98A420008E5B8 /* Debug */,
+				1158EED414F98A420008E5B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1158EEA814F98A410008E5B8 /* Project object */;
+}
